@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+}
+.khung{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.benphai{
+    float: right;
+}
+.timkiem{
+    width: 250px;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    line-height: 15px;
+    margin-left: -5px;
+}
+.nut{
+    background-color: white;
+    border: 1px solid blue;
+    line-height: 15px;
+    padding: 5px 5px;
+}
+.khungco{
+    float: right;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+nav{
+    text-align: center;
+    background-color: orangered;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px ;
+}
+nav a:hover{
+    color: #337ab7;
+    text-decoration: underline;
+}
+nav>li{
+    display:inline-block;
+}
+.nganhdaotao a:hover>.IT>.IT1{
+    color: #337ab7;
+}
+.banner{
+    width: 100%;
+    height: 470px;
+}
+
+.tintuc{
+    clear: both;
+    padding-top: 20px;
+    /* text-align: center; */
+}
+.h3tintuc{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color: #fff;
+    background-color: #f05123;
+    height: 40px;
+    width: 1160px;
+    margin-left: 174px;
+}
+.h3tintuc>h3{
+    font-size: 15px;
+    padding-top: 13px;
+    
+}
+.tin-dau-tien{
+    padding-top: 10px;
+    border-bottom: 1px solid #f05123;
+    width: 78%;
+}
+
+.tin-dau-tien-1{
+    margin-left: 87px;
+    display: flex;
+    align-items: top;
+    padding-bottom: 10px;
+}
+
+
+.tin1,.tin2,.tin3,.tin4,.tin5,.tin6,.tin-1,.tin-2,.tin-3{
+    float: left;
+    width: 25%;
+    margin: 25px 25px;
+}
+.tongtin{
+    padding-left: 150px;
+}
+.tin1-tieude,.tin2-tieude,.tin3-tieude,.tin4-tieude,.tin5-tieude,.tin6-tieude,.tin-1-tieude,.tin-2-tieude,.tin-3-tieude{
+    color: black;
+    font-size: 20px;
+    display: block;
+    float: left;
+}
+.tin1 a,.tin2 a,.tin3 a,.tin4 a,.tin5 a,.tin6 a,.tin-1 a,.tin-2 a,.tin-3 a{
+    text-decoration: none;
+}
+
+.tin1 a:hover>.tin1-tieude,.tin2 a:hover>.tin2-tieude,.tin3 a:hover>.tin3-tieude,.tin4 a:hover>.tin4-tieude,.tin5 a:hover>.tin5-tieude,.tin6 a:hover>.tin6-tieude,.tin-1 a:hover>.tin-1-tieude,.tin-2 a:hover>.tin-2-tieude,.tin-3 a:hover>.tin-3-tieude{
+    color: #f05123;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: gainsboro;
+    min-height: 50px;
+    display: inline-block;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.cot1, .cot2, .cot3, .cot4, .cot5{
+    width: 15%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+footer h3{
+    color: #f05123;
+}
+
+
+

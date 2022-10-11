@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.khung{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.benphai{
+    float: right;
+}
+.timkiem{
+    width: 250px;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    line-height: 15px;
+    margin-left: -5px;
+}
+.nut{
+    background-color: white;
+    border: 1px solid blue;
+    line-height: 15px;
+    padding: 5px 5px;
+}
+.khungco{
+    float: right;
+    margin-left: 25px;
+    margin-top: 4px;
+}
+nav{
+    text-align: center;
+    background-color: orangered;
+    padding: 15px;
+    
+}
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px 20px ;
+}
+nav a:hover{
+    color: #337ab7;
+    text-decoration: underline;
+}
+nav>li{
+    display:inline-block;
+}
+
+
+
+
+
+.hinhnen{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    height: 550px;
+    width: 100%;
+    position: relative;
+}
+
+.img{
+    height: 100%;
+    filter: brightness(0.7);            
+}
+
+.text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 48px;
+}
+
+article{
+    width: 100%;
+}
+
+.tong-lien-he{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ho-ten,.email,.sdt{
+    width: 850px;
+    height: 36px;
+}
+.noi-dung{
+    width: 850px;
+    height: 160px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: gainsboro;
+    min-height: 300px;
+    display: inline-block;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.cot1, .cot2, .cot3, .cot4, .cot5{
+    width: 15%;
+    float: left;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+footer h3{
+    color: #f05123;
+}
+
+
+
